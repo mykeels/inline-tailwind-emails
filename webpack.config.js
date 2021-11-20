@@ -1,6 +1,7 @@
 const path = require("path");
 const { SourceMapDevToolPlugin } = require("webpack");
 const { CleanWebpackPlugin } = require("clean-webpack-plugin");
+const nodeExternals = require("webpack-node-externals");
 
 const getSuffix = target => (target === "commonjs" ? "" : `.${target}`);
 
@@ -10,7 +11,7 @@ const createConfig = ({ libraryTarget }) => ({
     index: "./src/index.js"
   },
   target: "node",
-  externals: {},
+  externals: [nodeExternals()],
   output: {
     filename: `[name]${getSuffix(libraryTarget)}.js`,
     path: path.resolve(__dirname, "dist"),

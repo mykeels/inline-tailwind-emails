@@ -8,6 +8,7 @@
   ],
   "scripts": {
     "build": "webpack",
+    "watch": "webpack -w",
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch:tsc": "tsc --watch -p ./tsconfig.json",
     "build:tsc": "tsc -p ./tsconfig.json"
@@ -34,6 +35,7 @@
     "@babel/plugin-syntax-optional-chaining": "^7.8.3",
     "@babel/preset-env": "^7.7.7",
     "@babel/preset-react": "^7.7.4",
+    "@types/inline-css": "^0.0.33",
     "babel-eslint": "10.0.3",
     "babel-jest": "^26.1.0",
     "babel-loader": "^8.1.0",
