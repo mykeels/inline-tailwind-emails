@@ -1,0 +1,27 @@
+{
+  "name": "inline-tailwind-emails",
+  "version": "1.0.0",
+  "description": "An inliner for Email templates written with HTML and Tailwind CSS",
+  "main": "dist/index.js",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mykeels/inline-tailwind-emails.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mykeels/inline-tailwind-emails/issues"
+  },
+  "homepage": "https://github.com/mykeels/inline-tailwind-emails#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "inline-css": "^3.0.0"
+  }
+}
