@@ -18,8 +18,8 @@
     "url": "git+https://github.com/mykeels/inline-tailwind-emails.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "mykeels",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/mykeels/inline-tailwind-emails/issues"
   },
