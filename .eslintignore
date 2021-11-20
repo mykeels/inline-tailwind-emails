@@ -1,0 +1,6 @@
+!.eslintrc.js
+documentation/
+build/
+dist/
+node_modules/
+typings/**/*.d.ts
