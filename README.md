@@ -15,6 +15,7 @@ const { inlineTailwindEmail } = require("inline-tailwind-emails");
 
 const inlineHtml = await inlineTailwindEmail(
     `
+        <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css">
         <div class="bg-red-500">
             Hello World!
         </div>
